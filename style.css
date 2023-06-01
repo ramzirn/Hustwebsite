@@ -51,9 +51,10 @@ a {
     transition: .2s all;
     font-weight: 300;
     display: flex;
-    
-    margin-left: 400px;
-    margin-right: 400px;
+    width:fit-content;
+    padding: 0 15px;
+   
+  
     
   }
   a::before {
@@ -62,15 +63,21 @@ a {
     background: #FFB6C1;
     width: 2px;
     height: 100%;
-    left: 0;
+    left: -10px;
     transition: .2s all;
     z-index: -1;
   }
 
   a:hover::before {
-    width: 100%;
+    width: 100% ;
   }
   a:hover {
     color: #ffffff;
     font-size: 1.6em;
+  }
+
+  div.link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
