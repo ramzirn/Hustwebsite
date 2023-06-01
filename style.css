@@ -51,7 +51,7 @@ a {
     color: black;
     font-size: 1.4em;
     position: relative;
-    
+    margin-top: 20px;
     transition: .2s all;
     font-weight: 300;
     display: flex;
@@ -84,4 +84,10 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  hr{
+    color: #FFB6C1;
+
+    margin:5% 20%;
   }
