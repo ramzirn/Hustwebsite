@@ -1,5 +1,6 @@
-body{
-    padding: 0px 0px;;
+html{
+    padding: 0px 0px;
+    background-color: #808080;
 }
 
 
@@ -10,6 +11,7 @@ display: flex;
 justify-content: space-between;
 background-color: #FFB6C1;
 margin: 0px 0px ;
+padding: 0px 0px ;
     
 }
 nav img {
@@ -26,3 +28,49 @@ nav div {
 nav div span{
     margin: 20px;
 }
+
+div.aa{
+    margin: 150px 250px;;
+}
+
+h1{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    position: relative;
+    
+    transition: .2s all;
+    font-weight: 300;
+    display: flex;
+    
+    margin-left: 400px;
+    margin-right: 400px;
+    
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    background: #FFB6C1;
+    width: 2px;
+    height: 100%;
+    left: 0;
+    transition: .2s all;
+    z-index: -1;
+  }
+
+  a:hover::before {
+    width: 100%;
+  }
+  a:hover {
+    color: #ffffff;
+    font-size: 1.6em;
+  }
