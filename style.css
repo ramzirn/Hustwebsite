@@ -100,10 +100,45 @@ a {
   div.video-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     padding: 0 30px;
   }
   video{
     width: 600px;
     height: auto;
+    border-radius: 20px;
   }
+
+  div.feature-text{
+    background-color: #999999;
+    border-radius: 20px;
+    border: solid 1px #36393F;
+   
+  }
+  
+
+span.cmd{
+  font-family: 'Roboto Mono', monospace;
+}
+.cmd {
+  border: 1px solid ;
+  padding: 2px 5px;
+}
+.cmd:hover{
+  background-color: black;
+  text-decoration: white;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+h2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.feature-text {
+  width: 50%;
+  box-sizing: border-box;
+}
