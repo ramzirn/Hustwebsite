@@ -22,6 +22,11 @@ nav img {
     height: 100px;
     width: auto;
   }
+  p.aa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 
 
@@ -90,4 +95,15 @@ a {
     color: #FFB6C1;
 
     margin:5% 20%;
+  }
+
+  div.video-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  video{
+    width: 600px;
+    height: auto;
   }
