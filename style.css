@@ -146,3 +146,85 @@ h2{
 footer{
   background-color: #FFB6C1;
 }
+
+
+
+
+/* Style général du footer */
+footer {
+  
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contenu du footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Section d'informations de contact */
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #333;
+}
+
+/* Liens de navigation du footer */
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Informations légales */
+.legal-info p {
+  margin: 5px 0;
+}
+
+.legal-info a {
+  color: #333;
+}
+
+/* Droits d'auteur */
+.copyright {
+  margin-top: 20px;
+}
+
+/* Media query pour ajuster le footer sur les petits écrans */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 5px 0;
+  }
+}
