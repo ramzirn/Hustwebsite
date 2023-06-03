@@ -81,7 +81,7 @@ a.add {
     z-index: -1;
   }
 
-  a:hover::before {
+  a.add:hover::before {
     width: 100% ;
   }
   a.add:hover {
@@ -147,13 +147,9 @@ h2{
   box-sizing: border-box;
 }
 
-footer{
+footer {
   background-color: #FFB6C1;
 }
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -235,43 +231,12 @@ footer{
 }
 
 
-div.wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-footer{
-  margin-bottom:0px;
-}
-a{
-  text-decoration: none;
-  
-}
-
-.contact-info {
-  margin-bottom: 10px;
-}
-
-.contact-info p {
-  margin: 5px 0;
-}
-
-.contact-info a {
-  color: #333;
-}
 footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-links a {
-  color: #333;
-  text-decoration: none;
-}
-
-/* Informations légales */
 .legal-info p {
   margin: 5px 0;
 }
@@ -283,4 +248,24 @@ footer{
 /* Droits d'auteur */
 .copyright {
   margin-top: 20px;
+}
+
+/* Media query pour ajuster le footer sur les petits écrans */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 5px 0;
+  }
 }
