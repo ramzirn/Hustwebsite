@@ -280,7 +280,7 @@ footer {
 
 @media (max-width: 1200px) {
   /* Styles pour le contenu principal */
-  html,body{
+  body{
     background-color: #FFB6C1;
     font-size: 2em;
   }
