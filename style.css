@@ -274,3 +274,31 @@ footer {
   justify-content: space-between;
   padding: 0px;
 }
+
+
+
+@media (max-width: 767px) {
+  /* Styles pour le contenu principal */
+  div.aa {
+    margin: 50px 20px;
+  }
+
+  /* Styles pour la vidéo */
+  div.video-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  div.feature-text {
+    width: 100%;
+  }
+
+  .ali {
+    flex-direction: column;
+    align-items: center;
+  }
+}
