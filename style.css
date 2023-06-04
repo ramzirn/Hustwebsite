@@ -280,6 +280,10 @@ footer {
 
 @media (max-width: 1200px) {
   /* Styles pour le contenu principal */
+  html,body{
+    background-color: #FFB6C1;
+    font-size: 2em;
+  }
   .wrapper .icon:hover .tooltip{
     
     opacity: 0;
