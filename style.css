@@ -277,7 +277,7 @@ footer {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   /* Styles pour le contenu principal */
   div.aa {
     margin: 50px 20px;
