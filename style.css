@@ -209,8 +209,8 @@ footer{
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon:hover .tooltip{
-  top: -10%;
-  opacity: 1;
+  
+  
   pointer-events: auto;
 }
 .icon .tooltip:before{
@@ -312,5 +312,10 @@ footer {
 
 
 a.lan{
+  color: black;
+}
+
+a.icon{
+  text-decoration: none;
   color: black;
 }
